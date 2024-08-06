@@ -87,16 +87,20 @@ CogniEdu utilizes Streamlit alongside custom CSS to develop an intuitive user in
   <p align="left">
   <img width="500" alt="ConvoCraftersLogo.png" src="https://github.com/user-attachments/assets/a4d75f09-b690-4da2-a92a-2194cbd59da5">
 
-Calendar is set to a day view for focused viewing of the day's schedule with a red line and arrow indicating the current time. Upcoming events show the next 3 events and Ed is located below to direct the student to utilize his AI Chatbot assistance.
+*Calendar is set to a day view for focused viewing of the day's schedule with a red line and arrow indicating the current time. Upcoming events show the next 3 events and Ed is located below to direct the student to utilize his AI Chatbot assistance.*
 
 #### Calendar Page <a name="Calendar Page"></a> 
   <p align="left">
   <img width="500" alt="Cal 4" src="https://github.com/user-attachments/assets/8a19a5b7-7bfe-4e1f-abea-ab90f0242319">
 
+*Full week of optimized schedule is generated in week view. Light blue indicates the student's google calendar events, navy indicates Classes from Google Classroom, and pink indicates Ed's optimized study schedules.*
+
+
 #### Ed, AI Chatbot Page <a name="ED AI Chatbot Page"></a> 
   <p align="left">
   <img width="500" alt="Ed 2" src="https://github.com/user-attachments/assets/ec3c4fe4-14d5-44c2-ab5f-a4cbb709f131">
 
+*Recommended questions are provided and is hidden once the student asks Ed questions*
 
 # **🤔 Technical Challenges** <a name="Technical-Challenges"></a>
 [TBD]
