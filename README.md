@@ -11,30 +11,31 @@ CogniEdu is an academic planning tool designed to help students effectively mana
 
 1. [Project Motivation](#Project-Motivation)
 
-2. [Overview of CogniEdu](#Overview) 
+2. [Overview of CogniEdu](#Overview)
+   * [Project Diagram](#Project-Diagram)  
+   * [Front-End](#Front-End)  
 
-3. [Project Components](#Project-Components) 
-   * [Onboarding Experience](#Onboarding-Experience)   
-   * [Accessing Data through API Integration](#Accessing-Data)     
+4. [Project Components](#Project-Components) 
+   * [Onboarding Experience](#Onboarding-Experience)      
    * [Database Management with SQL](#Database)
    * [Time Estimations by LLM for Optimizer Algorithm](#Time)   
    * [Optimizing Student’s Study Time with Heuristic Algorithm and Gemini](#Optimizing)
    * [Ed: Our Conversational AI RAG Application Utilizing Langraph](#Ed) 
    * [Proactive Alerts for On Task Management](#Notifications)
       
-4. [Model Evaluation](#Model-Evaluation)
+5. [Model Evaluation](#Model-Evaluation)
 
-5. [Streamlit Built User Interface](#Streamlit)
+6. [Streamlit Built User Interface](#Streamlit)
    
-6. [Technical Challenges](#Technical-Challenges)
+7. [Technical Challenges](#Technical-Challenges)
 
-7. [Competitors and Market Opportunities](#Competitors-and-Market-Opportunities)
+8. [CogniEdu's Market Presence and Opportunities](#Market-Presence-and-Opportunities)
 
-8. [Future Work](#Future-Work)
+9. [Future Work](#Future-Work)
     
-9. [Tools Utilized](#Tools-Utilized)
+10. [Tools Utilized](#Tools-Utilized)
 
-10. [Acknowledgements/About Us](#Acknowledgements)
+11. [Acknowledgements/About Us](#Acknowledgements)
 
 
 # **🎯 Project Motivation** <a name="Project-Motivation"></a>
@@ -44,9 +45,11 @@ Every student juggles competing priorities, stemming from school, work and perso
 
 # **🧠  Overview of CogniEdu** <a name="Overview"></a>
 
+### Project Diagram <a name="Project-Diagram"></a>
+<img width="785" alt="Process Flow" src="https://github.com/user-attachments/assets/619dee8c-ef0a-494f-9755-826eba91cd2e">
 
-### Project Diagram <a name="Project Diagram"></a>
-[Project Diagram (TBD)]
+### Front-End <a name="Front-End"></a>
+<img width="785" alt="Front-End" src="https://github.com/user-attachments/assets/4a3baec3-f092-4bb4-85d3-fffd2568ab9f">
 
 
 # 🧩 Project Components <a name="Project-Components"></a>
@@ -54,28 +57,49 @@ Every student juggles competing priorities, stemming from school, work and perso
 ### 📋 Onboarding Experience <a name="Onboarding-Experience"></a>
 Each user undergoes an onboarding experience that integrates their calendar and academic platform through API calls. During this process, users complete an onboarding questionnaire that Ed uses to learn about their study habits and academic preferences. This information allows Ed to personalize the planning experience according to each user’s needs. 
 
-### 📥  Accessing Data through API Integration <a name="Accessing-Data"></a>  
-Student data accessed via API to access calendar information.                                                
+<h5 align="center"> Onboarding </h5>
+<p align="center">
+<img width="485" alt="Onboarding" src="https://github.com/user-attachments/assets/881a35f2-f323-4dc0-9331-21047dae264a">
+</p>                                             
 
 ### 🗄️ Database Management with SQL <a name="Database"></a> 
 Upon user signup, the onboarding questionnaire populates the users table in MySQL. By integrating with the user’s Google account, the application continuously syncs their Google Calendar event data with the MySQL database. Additionally, assignment information, such as due dates and instructions, is extracted from Google Classroom, transformed, and loaded into the MySQL database. The RAG (Retrieval-Augmented Generation) application then leverages this comprehensive data set to provide personalized and optimized solutions.                                                
 
+<h5 align="center"> Calendar Sync Overview </h5>
+<p align="center">
+<img width="400" alt="Calendar Sync Overview" src="https://github.com/user-attachments/assets/e418f9e5-2097-46da-8a15-bf9c5570982d">
+</p> 
+
 ### 🕛 Time Estimations by LLM for Optimizer Algorithm <a name="Time"></a> 
 Text
 
+<h5 align="center"> Time Estimation LLM </h5>
+<p align="center">
+<img width="700" alt="Time Estimation LLM" src="https://github.com/user-attachments/assets/15c2e554-d316-45a9-ab1c-8f2e4fac1416">
+</p> 
+
 ### 🗓️ Optimized Scheduling via Heuristics and LLM Prompting <a name="Optimizing"></a> 
 Leveraging Gemini’s advanced reasoning capabilities, our application generates a study schedule based on specified study durations (e.g., 2 hours, 4 hours). These durations are processed through a greedy heuristic optimization algorithm, which considers the student's availability and preferences. The algorithm strategically places these study sessions at optimal times throughout the day. The outcome is a comprehensive schedule that seamlessly integrates the student’s personal events with the newly optimized study times.
+
+<h5 align="center"> Optimizer Algorithm </h5>
+<p align="center">
+<img width="700" alt="Optimizer" src="https://github.com/user-attachments/assets/fc7f1e59-e9be-41ea-ac6c-8cdfbc0a3014">
+</p> 
                                            
 ### 💬 Ed: Our Conversational AI RAG Application Utilizing Langraph <a name="Ed"></a> 
 The chatbot leverages LangGraph's latest features to implement two powerful capabilities. The first is PDF Retrieval-Augmented Generation (RAG), which accesses students' Google Classroom materials to provide efficient, relevant query results. The second feature enables conversational interaction with the student's calendar. These functionalities allow students to seamlessly query their course resources and manage their schedules through natural language conversations.
 
+<h5 align="center"> Ed's Pipeline  </h5>
 <p align="center">
-<img width="200" alt="Screenshot 2024-06-18 at 12 08 32 PM" src="https://github.com/user-attachments/assets/64b48560-ff0e-40f6-9799-2719de11e769">
+<img width="700" alt="Ed's Pipeline" src="https://github.com/user-attachments/assets/957b6b9b-9a18-414d-ba60-9caf8d9a9ec4">
 </p> 
 
 ### 🔔 Proactive Alerts for On Task Management <a name="Notifications"></a> 
 Managing one's schedule effectively can often prove to be challenging. Ed sends proactive alerts to help users stay on track by extracting calendar data, formatting it into informative emails, automating the process, and securely integrating with external services via API calls and SSL for safe message transmission.
 
+<p align="center">
+<img width="200" alt="Screenshot 2024-06-18 at 12 08 32 PM" src="https://github.com/user-attachments/assets/64b48560-ff0e-40f6-9799-2719de11e769">
+</p> 
 
 # 📊  Model Evaluation <a name="Model-Evaluation"></a>                                             
 In selection of the model powering Ed, two models were compared, two of Google's Large Language Models were compared, Gemini 1.5 Pro and Gemini 1.5 Flash, using LangChain and AI. 
@@ -107,35 +131,17 @@ CogniEdu utilizes Streamlit alongside custom CSS to develop an intuitive user in
 *Recommended questions are provided and is hidden once the student asks Ed questions*
 
 # **🤔 Technical Challenges** <a name="Technical-Challenges"></a>
-#### 1. AI Hallucination: 
-AI systms can produce hallucinations, generation misleading or incorrect information. In order to reduce hallucinations, we provided specific prompts, clear constraints, and relevant data sources to curate Ed's responses. 
-#### 2. Privacy Concerns: 
-Students provide student data from their emails, Google Calendar, and Google Classroom that need safeguarding
-#### 3. Limited Training Data: 
-Limited data given reliance on student data. We utilized generative AI (Chatgpt) to create synthetic data to test out our chatbot.
-#### 4. Agentic System Run Time: 
-Increase Complexity affects run time
-#### 5. Agentic System Tool Selection: 
-Implementing the correct logic for the agent to chose the right tool based on context
-#### 6. LLM Inconsistency: 
-LLM responses can be random or inconsistent
 
 
-# **🤝🏻 Competitors and Market Opportunities** <a name="Competitors-and-Market-Opportunities"></a>
-[TBD]
+
+# **🤝🏻 CogniEdu's Market Presence and Opportunities** <a name="Market-Presence-and-Opportunities"></a>
+
 
 
 # 🚀 Future Work <a name="Future-Work"></a>  
-#### 1. Robust Time Estimation
-More robust time estimation algorithm for optimizer
-#### 2. Scale Features
-Each component can be scaled to accommodate more students and plan for longer time-periods
-#### 3. Partnership
-Partner with teachers, parents, and universities to help students on a broader scale
-#### 4. Feedback Loop
-Feedback Loop to track student's progress and success of CogniEdu recommendations
-#### 5. Improving LLMs
-With the permission of students, their data can be used for the LLMs to return smarter, user-specific responses
+
+
+
 
 # **🛠️ Tools Utilized** <a name="Tools-Utilized"></a>
 
