@@ -108,13 +108,17 @@ CogniEdu utilizes Streamlit alongside custom CSS to develop an intuitive user in
 
 # **🤔 Technical Challenges** <a name="Technical-Challenges"></a>
 #### 1. AI Hallucination: 
-AI systms can produce hallucinations, generation misleading or incorrect information
-#### 2. Privacy Concerns: Students provide student data that need safeguarding
-#### 3. Limited Training Data: Limited data given reliance on student data
-    a. g
-#### 4. Agentic System Run Time: Increase Complexity affects run time
-#### 5. Agentic System Tool Selection: Implementing the correct logic for the agent to chose the right tool based on context
-#### 6. LLM Inconsistency: LLM responses can be random or inconsistent
+AI systms can produce hallucinations, generation misleading or incorrect information. In order to reduce hallucinations, we provided specific prompts, clear constraints, and relevant data sources to curate Ed's responses. 
+#### 2. Privacy Concerns: 
+Students provide student data from their emails, Google Calendar, and Google Classroom that need safeguarding
+#### 3. Limited Training Data: 
+Limited data given reliance on student data. We utilized generative AI (Chatgpt) to create synthetic data to test out our chatbot.
+#### 4. Agentic System Run Time: 
+Increase Complexity affects run time
+#### 5. Agentic System Tool Selection: 
+Implementing the correct logic for the agent to chose the right tool based on context
+#### 6. LLM Inconsistency: 
+LLM responses can be random or inconsistent
 
 
 # **🤝🏻 Competitors and Market Opportunities** <a name="Competitors-and-Market-Opportunities"></a>
