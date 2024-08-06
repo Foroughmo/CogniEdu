@@ -43,6 +43,11 @@ Every student juggles competing priorities, stemming from school, work and perso
 
 
 # **🧠  Overview of CogniEdu** <a name="Overview"></a>
+#### UI/UX Design <a name="UI/UX Design"></a>
+  <p align="left">
+  <img width="100" alt="ConvoCraftersLogo.png" src="https://github.com/user-attachments/assets/a4d75f09-b690-4da2-a92a-2194cbd59da5">
+    
+#### Project Diagram <a name="Project Diagram"></a>
 [Project Diagram (TBD)]
 
 
