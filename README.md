@@ -40,7 +40,13 @@ CogniEdu is an academic planning tool designed to help students effectively mana
 
 # **🎯 Project Motivation** <a name="Project-Motivation"></a>
 
-Every student juggles competing priorities, stemming from school, work and personal life. CogniEdu takes the planning out of these priorities and creates an optimized schedule, tailored according to a user’s preferences, skills and commitments. With CogniEdu, students have a dedicated partner in Ed, a conversational AI chatbot as they navigate through their academic journey. Ed assists with organizing tasks, sending out reminders, answering questions about their calendar and classes, and helping students be more successful with their academics.
+We begin our story with our hypothetical student Nick Ramen. Nick Ramne is a college student dealing with a situation a lot of us can empathize to: he wants to have the best college experience he could have, all the while maintaining good grades, a healthy sleep schedule, and a social life. However, it comes to a point where he has overcommited and becomes overwhelmed, leading to a decline in grades and is lost as to how to navigate his academic decline.
+
+Like Nick, approximtely 86% of college students face challenges in effectively managing their time, leading to procrastination, stress, and a decline in academic performance.
+
+Here is how CogniEdu can help:
+
+Every student juggles with competing priorities, stemming from school, work and personal life. CogniEdu takes the planning out of these priorities and creates an optimized schedule, tailored according to the student’s preferences, skills and commitments. With CogniEdu, students have a dedicated AI Chatbot Assistant in Ed, a conversational AI chatbot as they navigate through their academic journey. Ed assists with organizing tasks, sending out reminders, answering questions about their calendar and classes, and helping students be more successful with their academics.
 
 
 # **🧠  Overview of CogniEdu** <a name="Overview"></a>
