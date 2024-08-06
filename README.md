@@ -114,6 +114,6 @@ CogniEdu utilizes Streamlit alongside custom CSS to develop an intuitive user in
   Michael Meissner  ([@mikemeissner1](https://github.com/mikemeissner1))  
   Forough Mofidi ([@Foroughmo](https://github.com/Foroughmo))  
   Joseph Strickland ([@JCStrick](https://github.com/JCStrick))
-  <p align="left">
+  <p align="center">
   <img width="200" alt="Screenshot 2024-06-18 at 12 08 32 PM" src="https://github.com/user-attachments/assets/556aa576-df13-4653-9f95-ef387dfbdd5">
   </p>
