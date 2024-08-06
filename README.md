@@ -69,6 +69,11 @@ Leveraging Gemini’s advanced reasoning capabilities, our application generates
 #### 💬 Ed: Our Conversational AI RAG Application Utilizing Langraph <a name="Ed"></a> 
 The chatbot leverages LangGraph's latest features to implement two powerful capabilities. The first is PDF Retrieval-Augmented Generation (RAG), which accesses students' Google Classroom materials to provide efficient, relevant query results. The second feature enables conversational interaction with the student's calendar. These functionalities allow students to seamlessly query their course resources and manage their schedules through natural language conversations.
 
+<p align="center">
+<img width="200" alt="Screenshot 2024-06-18 at 12 08 32 PM" src="https://github.com/user-attachments/assets/64b48560-ff0e-40f6-9799-2719de11e769
+">
+</p>
+
 #### 🔔 Proactive Alerts for On Task Management <a name="Notifications"></a> 
 Managing one's schedule effectively can often prove to be challenging. Ed sends proactive alerts to help users stay on track by extracting calendar data, formatting it into informative emails, automating the process, and securely integrating with external services via API calls and SSL for safe message transmission.
 
