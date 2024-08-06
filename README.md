@@ -43,18 +43,7 @@ Every student juggles competing priorities, stemming from school, work and perso
 
 
 # **🧠  Overview of CogniEdu** <a name="Overview"></a>
-### UI/UX Design <a name="UI/UX Design"></a>
-#### Home Page <a name="Home Page"></a>
-  <p align="left">
-  <img width="500" alt="ConvoCraftersLogo.png" src="https://github.com/user-attachments/assets/a4d75f09-b690-4da2-a92a-2194cbd59da5">
 
-#### Calendar Page <a name="Calendar Page"></a> 
-  <p align="left">
-  <img width="500" alt="Cal 4" src="https://github.com/user-attachments/assets/8a19a5b7-7bfe-4e1f-abea-ab90f0242319">
-
-#### ED AI Chatbot Page <a name="ED AI Chatbot Page"></a> 
-  <p align="left">
-  <img width="500" alt="Ed 2" src="https://github.com/user-attachments/assets/ec3c4fe4-14d5-44c2-ab5f-a4cbb709f131">
 
 ### Project Diagram <a name="Project Diagram"></a>
 [Project Diagram (TBD)]
@@ -93,7 +82,18 @@ In selection of the model powering Ed, two models were compared, two of Google's
 # 📱 Streamlit Built User Interface <a name="Streamlit"></a>                                             
 CogniEdu utilizes Streamlit alongside custom CSS to develop an intuitive user interface, ensuring a cohesive user experience. The deployment involved leveraging Cloud Run and NGROK to facilitate seamless accessibility and scalability of the data science application.
 
-[Images of Streamlit (TBD)]
+### UI/UX Design <a name="UI/UX Design"></a>
+#### Home Page <a name="Home Page"></a>
+  <p align="left">
+  <img width="500" alt="ConvoCraftersLogo.png" src="https://github.com/user-attachments/assets/a4d75f09-b690-4da2-a92a-2194cbd59da5">
+
+#### Calendar Page <a name="Calendar Page"></a> 
+  <p align="left">
+  <img width="500" alt="Cal 4" src="https://github.com/user-attachments/assets/8a19a5b7-7bfe-4e1f-abea-ab90f0242319">
+
+#### Ed, AI Chatbot Page <a name="ED AI Chatbot Page"></a> 
+  <p align="left">
+  <img width="500" alt="Ed 2" src="https://github.com/user-attachments/assets/ec3c4fe4-14d5-44c2-ab5f-a4cbb709f131">
 
 
 # **🤔 Technical Challenges** <a name="Technical-Challenges"></a>
