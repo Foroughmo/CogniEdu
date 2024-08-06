@@ -167,7 +167,7 @@ LLM responses can be random or inconsistent.
 
 
 # **🤝🏻 CogniEdu's Market Presence and Opportunities** <a name="Market-Presence-and-Opportunities"></a>
-
+Cogniedu addresses a significant market need for academic planning and organization tools that integrate seamlessly with existing technologies like Google Calendar and Google Classroom. With the increasing complexity of student schedules and the growing reliance on academic digital tools, CogniEdu is well-positioned for the educational technology market. We hope to enhance and expand our platform by collaborating with academic institutions and universities and by expanding integration to other popular platforms like Outlook Calendar and Canvas so that CogniEdu is a pre-installed feature for ease of access for students. 
 
 
 # 🚀 Future Work <a name="Future-Work"></a>  
