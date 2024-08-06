@@ -1,7 +1,7 @@
 <h1 align="center"> CogniEdu: AI-Powered Academic Planning for Student Success </h1>
 
 <p align="center">
-<img width="500" alt="Screenshot 2024-06-18 at 12 08 32 PM" src="https://github.com/user-attachments/assets/a96051c6-6110-489b-9ff9-5fde6e5402ed">
+<img width="300" alt="Screenshot 2024-06-18 at 12 08 32 PM" src="https://github.com/user-attachments/assets/a96051c6-6110-489b-9ff9-5fde6e5402ed">
 </p>
 
 CogniEdu is an academic planning tool designed to help students effectively manage their academic schedules alongside other commitments.
@@ -45,7 +45,7 @@ Every student juggles competing priorities, stemming from school, work and perso
 # **🧠  Overview of CogniEdu** <a name="Overview"></a>
 #### UI/UX Design <a name="UI/UX Design"></a>
   <p align="left">
-  <img width="200" alt="ConvoCraftersLogo.png" src="https://github.com/user-attachments/assets/a4d75f09-b690-4da2-a92a-2194cbd59da5">
+  <img width="350" alt="ConvoCraftersLogo.png" src="https://github.com/user-attachments/assets/a4d75f09-b690-4da2-a92a-2194cbd59da5">
     
 #### Project Diagram <a name="Project Diagram"></a>
 [Project Diagram (TBD)]
