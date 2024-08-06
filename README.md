@@ -149,10 +149,37 @@ In selection of the model powering Ed, two models were compared, two of Google's
 CogniEdu utilizes Streamlit alongside custom CSS to develop an intuitive user interface, ensuring a cohesive user experience. The deployment involved leveraging Cloud Run and NGROK to facilitate seamless accessibility and scalability of the data science application.
 
 ### UI/UX Design <a name="UI/UX Design"></a>
+#### Landing Page <a name="Landing Page"></a>
 <p align="left">
 <img width="600" alt="Screenshot 2024-08-06 at 5 33 39 PM" src="https://github.com/user-attachments/assets/8a641e3c-eef9-4013-9361-4b0c196f917d">
 
 The Landing Page directs new students to "Register Here" and returning students to "Log in Here".
+
+#### New Student Registeration <a name="New Student Registration"></a>
+##### Register Here Page <a name="Register Here Page"></a>
+
+New students are directed to input their email address, full name, and password to create a new account.
+
+##### Integration Page <a name="Integration Page"></a>
+
+Here is where the integration happens. New students integrate their Google Classroom and Google Calendar platforms.
+
+##### Ed Says Hi! <a name="Ed Says Hi!"></a>
+
+New students are shown a pop up of Ed introducing himself as your personal AI Chatbot assistant.
+
+##### Questionnaire Page <a name="Questionnaire Page"></a>
+
+Ed directs you to tailor your experience with CogniEdu! This is where you provide your preferences in studying time, whether you are a morning person or not, preferred break times, etc.
+
+#### Returning Student Log-in <a name="Returning Student Log-in"></a>
+##### Log-in Page <a name="Log-in Page"></a>
+
+Returning students are directed to input their email address and password to log back into their account
+
+##### Welcome Back! <a name="Welcome Back!"></a>
+
+Returning students are shown a pop up welcoming you back to CogniEdu
 
 #### Home Page <a name="Home Page"></a>
   <p align="left">
