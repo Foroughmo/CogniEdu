@@ -72,7 +72,15 @@ Upon user signup, the onboarding questionnaire populates the users table in MySQ
 </p> 
 
 ### [🕛 Time Estimations by LLM for Optimizer Algorithm](https://github.com/Foroughmo/CogniEdu/tree/main/3_Time_Estimation_LLM) <a name="Time"></a> 
-Text
+### Time Estimation
+
+The time estimation algorithm serves as the preliminary phase in preparing data for the optimizer. This process is executed in two steps utilizing Large Language Models (LLMs) through prompt engineering.
+
+**Step 1: Assignment Difficulty Level**
+The LLM evaluates the difficulty level of each assignment based on its content. Assignments are then categorized on a scale of easy, medium, or hard. These qualitative scales are converted into numerical values and stored accordingly.
+
+**Step 2: Time Estimation**
+Based on the assignment's content and its assigned difficulty level, the LLM estimates the time required to complete the assignment. Once the time estimation is determined, it is provided to the optimizer to create an optimized study plan.
 
 <h5 align="center"> Time Estimation LLM </h5>
 <p align="center">
