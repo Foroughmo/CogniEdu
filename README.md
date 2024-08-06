@@ -61,7 +61,7 @@ Every student juggles with competing priorities, stemming from school, work and 
 # 🧩 Project Components <a name="Project-Components"></a>
 
 ### [📋 Onboarding Experience](https://github.com/Foroughmo/CogniEdu/tree/main/1_API_Integrations) <a name="Onboarding-Experience"></a>
-Each user undergoes an onboarding experience that integrates their calendar and academic platform through API calls. During this process, users complete an onboarding questionnaire that Ed uses to learn about their study habits and academic preferences. This information allows Ed to personalize the planning experience according to each user’s needs. 
+Each student undergoes an onboarding experience that integrates their calendar and academic platform through API calls. During this process, users complete an onboarding questionnaire that Ed uses to learn about their study habits and academic preferences. This information allows Ed to personalize the planning experience according to each student’s needs. 
 
 <h5 align="center"> Onboarding </h5>
 <p align="center">
@@ -69,13 +69,22 @@ Each user undergoes an onboarding experience that integrates their calendar and 
 </p>
 
 ### [🗄️ Database Management with SQL](https://github.com/Foroughmo/CogniEdu/tree/main/2_SQL_Database) <a name="Database"></a> 
-Upon user signup, the onboarding questionnaire populates the users table in MySQL. By integrating with the user’s Google account, the application continuously syncs their Google Calendar event data with the MySQL database. Additionally, assignment information, such as due dates and instructions, is extracted from Google Classroom, transformed, and loaded into the MySQL database. The RAG (Retrieval-Augmented Generation) application then leverages this comprehensive data set to provide personalized and optimized solutions.                                                
+Upon user signup, the onboarding questionnaire populates the student's table in MySQL. By integrating with the student's Google account, the application continuously syncs their Google Calendar event data with the MySQL database. 
 
 <h5 align="center"> Calendar Sync Overview </h5>
 <p align="center">
 <img width="400" alt="Calendar Sync Overview" src="https://github.com/user-attachments/assets/e418f9e5-2097-46da-8a15-bf9c5570982d">
 </p> 
 
+The calendar sync involves an initial import of the student's full calendar, while the continuous sync regularly updates every X number of minutes. The sync also stores events and handles NEW, UPDATED, and DELETED items chunked and embedded for future retrieval, per a logic. 
+
+<h5 align="center"> Calendar Sync Logic </h5>
+
+<p align="center">
+<img width="400" alt="Calendar Sync Overview" src="https://github.com/user-attachments/assets/69833ef1-ab3f-4bb3-8258-1be97508510e">
+</p> 
+
+The MySQL database also houses assignment information, such as due dates and instructions, which is extracted from Google Classroom, and then transformed, before being loaded into said database. The RAG (Retrieval-Augmented Generation) application then leverages this comprehensive data set to provide personalized and optimized solutions.                                                
 ### [🕛 Time Estimations by LLM for Optimizer Algorithm](https://github.com/Foroughmo/CogniEdu/tree/main/3_Time_Estimation_LLM) <a name="Time"></a> 
 ### Time Estimation
 
@@ -101,11 +110,11 @@ Leveraging Gemini’s advanced reasoning capabilities, our application generates
 </p> 
                                            
 ### [💬 Ed: Our Conversational AI Agent](https://github.com/Foroughmo/CogniEdu/tree/main/5_Chatbot) <a name="Ed"></a> 
-Our chatbot, Ed, is built on the ReAct (Reasoning and Acting) paradigm, leveraging LangGraph to create a dynamic, multi-tool agent. The system employs three key capabilities:
+CogniEdu's chatbot, Ed, is built on the ReAct (Reasoning and Acting) paradigm, leveraging LangGraph to create a dynamic, multi-tool agent. The system employs three key capabilities:
 
 1. PDF Retrieval-Augmented Generation (RAG): This tool accesses and queries students' Google Classroom materials, providing efficient and relevant information from course documents.
 
-2. Calendar Interaction: A dedicated tool enables conversational access to the student's academic calendar, allowing for schedule queries and management.
+2. Calendar Interaction: A dedicated tool enables conversational access to the student's personal and academic calendar, allowing for schedule queries and management.
 
 3. Web Search Integration: Utilizing Tavily, the agent can fetch external resources to supplement course materials and provide additional learning support.
 
@@ -122,7 +131,7 @@ Ed processes user queries through an iterative cycle of reasoning (using a Large
 </p> 
 
 ### [🔔 Proactive Alerts for On Task Management](https://github.com/Foroughmo/CogniEdu/tree/main/6_Email_Notification) <a name="Notifications"></a> 
-Managing one's schedule effectively can often prove to be challenging. Ed sends proactive alerts to help users stay on track by extracting calendar data, formatting it into informative emails, automating the process, and securely integrating with external services via API calls and SSL for safe message transmission.
+Managing one's schedule effectively can often prove to be challenging. Ed sends email notifications with optimized calendar information to help users stay on track by extracting calendar data, formatting it into informative emails, and automating the process. Emails are securely sent by integrating with external email servers via Simple Mail Transfer Protocol (SMTP) and Secure Sockets Layer (SSL) for safe message transmission.
 
 <p align="center">
 <img width="200" alt="Screenshot 2024-06-18 at 12 08 32 PM" src="https://github.com/user-attachments/assets/64b48560-ff0e-40f6-9799-2719de11e769">
@@ -140,22 +149,28 @@ CogniEdu utilizes Streamlit alongside custom CSS to develop an intuitive user in
 ### UI/UX Design <a name="UI/UX Design"></a>
 #### Home Page <a name="Home Page"></a>
   <p align="left">
-  <img width="500" alt="ConvoCraftersLogo.png" src="https://github.com/user-attachments/assets/a4d75f09-b690-4da2-a92a-2194cbd59da5">
+  <img width="600" alt="ConvoCraftersLogo.png" src="https://github.com/user-attachments/assets/a4d75f09-b690-4da2-a92a-2194cbd59da5">
 
-*Calendar is set to a day view for focused viewing of the day's schedule with a red line and arrow indicating the current time. Upcoming events show the next 3 events and Ed is located below to direct the student to utilize his AI Chatbot assistance.*
+The Home Page includes the optimized calendar, a dedicated section for Ed, the student's friendly AI chatbot, and a view of the upcoming events. 
+* The calendar is set to a day view for focused viewing of the day's schedule with a red line and arrow indicating the current time.
+* Upcoming events show the next 3 events, as well as relevant details pertaining to them.
+* Ed is located below to direct the student to utilize his AI Chatbot assistance.*
 
 #### Calendar Page <a name="Calendar Page"></a> 
   <p align="left">
-  <img width="500" alt="Cal 4" src="https://github.com/user-attachments/assets/8a19a5b7-7bfe-4e1f-abea-ab90f0242319">
+  <img width="600" alt="Cal 4" src="https://github.com/user-attachments/assets/8a19a5b7-7bfe-4e1f-abea-ab90f0242319">
 
-*Full week of optimized schedule is generated in week view. Light blue indicates the student's google calendar events, navy indicates Classes from Google Classroom, and pink indicates Ed's optimized study schedules.*
+The Calendar Page is the student's dedicated space to view a full week's optimized schedule. The event colors represent their source:
+* Light Blue: Student's Google Calendar Events
+* Navy: Classes from Google Classroom
+* Pink: Ed's Optimizer Events
 
 
 #### Ed, AI Chatbot Page <a name="ED AI Chatbot Page"></a> 
   <p align="left">
-  <img width="500" alt="Ed 2" src="https://github.com/user-attachments/assets/ec3c4fe4-14d5-44c2-ab5f-a4cbb709f131">
+  <img width="600" alt="Ed 2" src="https://github.com/user-attachments/assets/ec3c4fe4-14d5-44c2-ab5f-a4cbb709f131">
 
-*Recommended questions are provided and is hidden once the student asks Ed questions*
+The Ed, AI Chatbot Page allows for conversation pertaining to the student's course materials and their calendar. Recommended questions are provided to assist the student in making queries to Ed.
 
 # **🤔 Technical Challenges** <a name="Technical-Challenges"></a>
 #### 1. AI Hallucinations: 
