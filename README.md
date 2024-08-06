@@ -87,7 +87,7 @@ The calendar sync involves an initial import of the student's full calendar, whi
 </p> 
 
 The MySQL database also houses assignment information, such as due dates and instructions, which is extracted from Google Classroom, and then transformed, before being loaded into said database. The RAG (Retrieval-Augmented Generation) application then leverages this comprehensive data set to provide personalized and optimized solutions.                                                
-### [🕛 Time Estimations by LLM for Optimizer Algorithm](https://github.com/Foroughmo/CogniEdu/tree/main/3_Time_Estimation_LLM) <a name="Time"></a> 
+### [🕛 Time Estimations by LLM for Optimizer Algorithm](https://github.com/Foroughmo/CogniEdu/tree/main/3_LLM_Time_Estimation) <a name="Time"></a> 
 ### Time Estimation
 
 The time estimation algorithm serves as the preliminary phase in preparing data for the optimizer. This process is executed in two steps utilizing Large Language Models (LLMs) through prompt engineering.
@@ -142,7 +142,7 @@ Managing one's schedule effectively can often prove to be challenging. Ed sends 
 # [📊  Model Evaluation](https://github.com/Foroughmo/CogniEdu/tree/main/7_Model_Evaluation) <a name="Model-Evaluation"></a>                                             
 In selection of the model powering Ed, two models were compared, two of Google's Large Language Models were compared, Gemini 1.5 Pro and Gemini 1.5 Flash, using LangChain and AI. 
 
-<img width="1040" alt="Implementation Evaluation Dashboard" src="https://github.com/user-attachments/assets/40f93cc8-04ea-4612-adc3-545ff1e3252a">
+<img width="850" alt="Model Evaluation Dashboard" src="https://github.com/user-attachments/assets/fb66f99f-85d7-4743-8c61-a6093967a596">
 
 
 # [📱 Streamlit Built User Interface](https://github.com/Foroughmo/CogniEdu/tree/main/8_Streamlit) <a name="Streamlit"></a>                                             
