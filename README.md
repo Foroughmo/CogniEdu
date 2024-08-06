@@ -96,6 +96,11 @@ Our chatbot, Ed, is built on the ReAct (Reasoning and Acting) paradigm, leveragi
 
 3. Web Search Integration: Utilizing Tavily, the agent can fetch external resources to supplement course materials and provide additional learning support.
 
+<h5 align="center"> ReAct Framework </h5>
+<p align="center">
+<img width="267" alt="ReAct Framework" src="https://github.com/user-attachments/assets/4fb2feec-ee06-4b08-adfd-99872d1d76db">
+</p> 
+
 Ed processes user queries through an iterative cycle of reasoning (using a Large Language Model) and acting (employing these specialized tools). This ReAct architecture allows the agent to break down complex queries, determine the most appropriate tools to use, and synthesize information from multiple sources. By integrating these functionalities, students can seamlessly query their course resources, manage their schedules, and access relevant external content through natural language conversations. The LangGraph framework enables Ed to maintain context and make informed decisions throughout these interactions, enhancing the overall user experience and academic support.
 
 <h5 align="center"> Ed's Pipeline </h5>
