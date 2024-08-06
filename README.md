@@ -51,30 +51,29 @@ Every student juggles competing priorities, stemming from school, work and perso
 
 # 🧩 Project Components <a name="Project-Components"></a>
 
-#### 📋 Onboarding Experience <a name="Onboarding-Experience"></a>
+### 📋 Onboarding Experience <a name="Onboarding-Experience"></a>
 Each user undergoes an onboarding experience that integrates their calendar and academic platform through API calls. During this process, users complete an onboarding questionnaire that Ed uses to learn about their study habits and academic preferences. This information allows Ed to personalize the planning experience according to each user’s needs. 
 
-#### 📥  Accessing Data through API Integration <a name="Accessing-Data"></a>  
+### 📥  Accessing Data through API Integration <a name="Accessing-Data"></a>  
 Student data accessed via API to access calendar information.                                                
 
-#### 🗄️ Database Management with SQL <a name="Database"></a> 
+### 🗄️ Database Management with SQL <a name="Database"></a> 
 Upon user signup, the onboarding questionnaire populates the users table in MySQL. By integrating with the user’s Google account, the application continuously syncs their Google Calendar event data with the MySQL database. Additionally, assignment information, such as due dates and instructions, is extracted from Google Classroom, transformed, and loaded into the MySQL database. The RAG (Retrieval-Augmented Generation) application then leverages this comprehensive data set to provide personalized and optimized solutions.                                                
 
-#### 🕛 Time Estimations by LLM for Optimizer Algorithm <a name="Time"></a> 
+### 🕛 Time Estimations by LLM for Optimizer Algorithm <a name="Time"></a> 
 Text
 
-#### 🗓️ Optimized Scheduling via Heuristics and LLM Prompting <a name="Optimizing"></a> 
+### 🗓️ Optimized Scheduling via Heuristics and LLM Prompting <a name="Optimizing"></a> 
 Leveraging Gemini’s advanced reasoning capabilities, our application generates a study schedule based on specified study durations (e.g., 2 hours, 4 hours). These durations are processed through a greedy heuristic optimization algorithm, which considers the student's availability and preferences. The algorithm strategically places these study sessions at optimal times throughout the day. The outcome is a comprehensive schedule that seamlessly integrates the student’s personal events with the newly optimized study times.
                                            
-#### 💬 Ed: Our Conversational AI RAG Application Utilizing Langraph <a name="Ed"></a> 
+### 💬 Ed: Our Conversational AI RAG Application Utilizing Langraph <a name="Ed"></a> 
 The chatbot leverages LangGraph's latest features to implement two powerful capabilities. The first is PDF Retrieval-Augmented Generation (RAG), which accesses students' Google Classroom materials to provide efficient, relevant query results. The second feature enables conversational interaction with the student's calendar. These functionalities allow students to seamlessly query their course resources and manage their schedules through natural language conversations.
 
 <p align="center">
 <img width="200" alt="Screenshot 2024-06-18 at 12 08 32 PM" src="https://github.com/user-attachments/assets/64b48560-ff0e-40f6-9799-2719de11e769">
 </p> 
-*Ed, your Academic AI Chatbot Assistant*
 
-#### 🔔 Proactive Alerts for On Task Management <a name="Notifications"></a> 
+### 🔔 Proactive Alerts for On Task Management <a name="Notifications"></a> 
 Managing one's schedule effectively can often prove to be challenging. Ed sends proactive alerts to help users stay on track by extracting calendar data, formatting it into informative emails, automating the process, and securely integrating with external services via API calls and SSL for safe message transmission.
 
 
