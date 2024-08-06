@@ -16,7 +16,8 @@ CogniEdu is an academic planning tool designed to help students effectively mana
 3. [Project Components](#Project-Components) 
    * [Onboarding Experience](#Onboarding-Experience)   
    * [Accessing Data through API Integration](#Accessing-Data)     
-   * [Database Management with SQL](#Database)   
+   * [Database Management with SQL](#Database)
+   * [Time Estimations by LLM for Optimizer Algorithm](#Time)   
    * [Optimizing Student’s Study Time with Heuristic Algorithm and Gemini](#Optimizing)
    * [Ed: Our Conversational AI RAG Application Utilizing Langraph](#Ed) 
    * [Proactive Alerts for On Task Management](#Notifications)
@@ -56,6 +57,9 @@ Student data accessed via API to access calendar information.
 #### 🗄️ Database Management with SQL <a name="Database"></a> 
 Upon user signup, the onboarding questionnaire populates the users table in MySQL. By integrating with the user’s Google account, the application continuously syncs their Google Calendar event data with the MySQL database. Additionally, assignment information, such as due dates and instructions, is extracted from Google Classroom, transformed, and loaded into the MySQL database. The RAG (Retrieval-Augmented Generation) application then leverages this comprehensive data set to provide personalized and optimized solutions.                                                
 
+#### 🕛 Time Estimations by LLM for Optimizer Algorithm <a name="Time"></a> 
+Text
+
 #### 🗓️ Optimized Scheduling via Heuristics and LLM Prompting <a name="Optimizing"></a> 
 Leveraging Gemini’s advanced reasoning capabilities, our application generates a study schedule based on specified study durations (e.g., 2 hours, 4 hours). These durations are processed through a greedy heuristic optimization algorithm, which considers the student's availability and preferences. The algorithm strategically places these study sessions at optimal times throughout the day. The outcome is a comprehensive schedule that seamlessly integrates the student’s personal events with the newly optimized study times.
                                            
@@ -67,9 +71,9 @@ Managing one's schedule effectively can often prove to be challenging. Ed sends 
 
 
 # 📊  Model Evaluation <a name="Model-Evaluation"></a>                                             
-In selection of the model powering Ed, various models were compared using industry-accepted metrics. 
+In selection of the model powering Ed, two models were compared, two of Google's Large Language Models were compared, Gemini 1.5 Pro and Gemini 1.5 Flash, using LangChain and AI. 
 
-[Image of Slide with Metrics (TBD)]
+<img width="1040" alt="Implementation Evaluation Dashboard" src="https://github.com/user-attachments/assets/40f93cc8-04ea-4612-adc3-545ff1e3252a">
 
 
 # 📱 Streamlit Built User Interface <a name="Streamlit"></a>                                             
