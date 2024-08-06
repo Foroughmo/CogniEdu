@@ -1,7 +1,7 @@
 <h1 align="center"> CogniEdu: AI-Powered Academic Planning for Student Success </h1>
 
 <p align="center">
-<img width="300" alt="Screenshot 2024-06-18 at 12 08 32 PM" src="https://github.com/user-attachments/assets/a96051c6-6110-489b-9ff9-5fde6e5402ed">
+<img width="500" alt="Screenshot 2024-06-18 at 12 08 32 PM" src="https://github.com/user-attachments/assets/a96051c6-6110-489b-9ff9-5fde6e5402ed">
 </p>
 
 CogniEdu is an academic planning tool designed to help students effectively manage their academic schedules alongside other commitments.
