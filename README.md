@@ -86,7 +86,8 @@ CogniEdu utilizes Streamlit alongside custom CSS to develop an intuitive user in
 #### Home Page <a name="Home Page"></a>
   <p align="left">
   <img width="500" alt="ConvoCraftersLogo.png" src="https://github.com/user-attachments/assets/a4d75f09-b690-4da2-a92a-2194cbd59da5">
-Calendar is set to a day view for focused viewing of the day's schedule with a red line and arrow indicating the current time. Upcoming events show the next 3 events and Ed is located below to direct the student to utilize his AI Chatbot assistance.
+
+    Calendar is set to a day view for focused viewing of the day's schedule with a red line and arrow indicating the current time. Upcoming events show the next 3 events and Ed is located below to direct the student to utilize his AI Chatbot assistance.
 
 #### Calendar Page <a name="Calendar Page"></a> 
   <p align="left">
