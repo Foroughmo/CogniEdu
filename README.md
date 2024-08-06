@@ -47,9 +47,11 @@ Every student juggles competing priorities, stemming from school, work and perso
 #### Home Page <a name="Home Page"></a>
   <p align="left">
   <img width="500" alt="ConvoCraftersLogo.png" src="https://github.com/user-attachments/assets/a4d75f09-b690-4da2-a92a-2194cbd59da5">
-#### Calendar Page <a name="Calendar Page"></a>  
+
+#### Calendar Page <a name="Calendar Page"></a> 
   <p align="left">
   <img width="500" alt="Cal 4" src="https://github.com/user-attachments/assets/8a19a5b7-7bfe-4e1f-abea-ab90f0242319">
+
 #### ED AI Chatbot Page <a name="ED AI Chatbot Page"></a> 
   <p align="left">
   <img width="500" alt="Ed 2" src="https://github.com/user-attachments/assets/ec3c4fe4-14d5-44c2-ab5f-a4cbb709f131">
