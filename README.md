@@ -32,10 +32,11 @@ CogniEdu is an academic planning tool designed to help students effectively mana
 8. [CogniEdu's Market Presence and Opportunities](#Market-Presence-and-Opportunities)
 
 9. [Future Work](#Future-Work)
+   * [Next Steps](#Next-Steps)    
     
-10. [Tools Utilized](#Tools-Utilized)
+11. [Tools Utilized](#Tools-Utilized)
 
-11. [Acknowledgements/About Us](#Acknowledgements)
+12. [Acknowledgements/About Us](#Acknowledgements)
 
 
 # **🎯 Project Motivation** <a name="Project-Motivation"></a>
@@ -54,15 +55,15 @@ Every student juggles competing priorities, stemming from school, work and perso
 
 # 🧩 Project Components <a name="Project-Components"></a>
 
-### 📋 Onboarding Experience <a name="Onboarding-Experience"></a>
+### [📋 Onboarding Experience](https://github.com/Foroughmo/CogniEdu/tree/main/1_API_Integrations) <a name="Onboarding-Experience"></a>
 Each user undergoes an onboarding experience that integrates their calendar and academic platform through API calls. During this process, users complete an onboarding questionnaire that Ed uses to learn about their study habits and academic preferences. This information allows Ed to personalize the planning experience according to each user’s needs. 
 
 <h5 align="center"> Onboarding </h5>
 <p align="center">
 <img width="485" alt="Onboarding" src="https://github.com/user-attachments/assets/881a35f2-f323-4dc0-9331-21047dae264a">
-</p>                                             
+</p>
 
-### 🗄️ Database Management with SQL <a name="Database"></a> 
+### [🗄️ Database Management with SQL](https://github.com/Foroughmo/CogniEdu/tree/main/2_SQL_Database) <a name="Database"></a> 
 Upon user signup, the onboarding questionnaire populates the users table in MySQL. By integrating with the user’s Google account, the application continuously syncs their Google Calendar event data with the MySQL database. Additionally, assignment information, such as due dates and instructions, is extracted from Google Classroom, transformed, and loaded into the MySQL database. The RAG (Retrieval-Augmented Generation) application then leverages this comprehensive data set to provide personalized and optimized solutions.                                                
 
 <h5 align="center"> Calendar Sync Overview </h5>
@@ -70,7 +71,7 @@ Upon user signup, the onboarding questionnaire populates the users table in MySQ
 <img width="400" alt="Calendar Sync Overview" src="https://github.com/user-attachments/assets/e418f9e5-2097-46da-8a15-bf9c5570982d">
 </p> 
 
-### 🕛 Time Estimations by LLM for Optimizer Algorithm <a name="Time"></a> 
+### [🕛 Time Estimations by LLM for Optimizer Algorithm](https://github.com/Foroughmo/CogniEdu/tree/main/3_Time_Estimation_LLM) <a name="Time"></a> 
 Text
 
 <h5 align="center"> Time Estimation LLM </h5>
@@ -78,7 +79,7 @@ Text
 <img width="700" alt="Time Estimation LLM" src="https://github.com/user-attachments/assets/15c2e554-d316-45a9-ab1c-8f2e4fac1416">
 </p> 
 
-### 🗓️ Optimized Scheduling via Heuristics and LLM Prompting <a name="Optimizing"></a> 
+### [🗓️ Optimized Scheduling via Heuristics and LLM Prompting](https://github.com/Foroughmo/CogniEdu/tree/main/4_Optimizer) <a name="Optimizing"></a> 
 Leveraging Gemini’s advanced reasoning capabilities, our application generates a study schedule based on specified study durations (e.g., 2 hours, 4 hours). These durations are processed through a greedy heuristic optimization algorithm, which considers the student's availability and preferences. The algorithm strategically places these study sessions at optimal times throughout the day. The outcome is a comprehensive schedule that seamlessly integrates the student’s personal events with the newly optimized study times.
 
 <h5 align="center"> Optimizer Algorithm </h5>
@@ -86,28 +87,28 @@ Leveraging Gemini’s advanced reasoning capabilities, our application generates
 <img width="700" alt="Optimizer" src="https://github.com/user-attachments/assets/fc7f1e59-e9be-41ea-ac6c-8cdfbc0a3014">
 </p> 
                                            
-### 💬 Ed: Our Conversational AI RAG Application Utilizing Langraph <a name="Ed"></a> 
+### [💬 Ed: Our Conversational AI RAG Application Utilizing Langraph](https://github.com/Foroughmo/CogniEdu/tree/main/5_Chatbot) <a name="Ed"></a> 
 The chatbot leverages LangGraph's latest features to implement two powerful capabilities. The first is PDF Retrieval-Augmented Generation (RAG), which accesses students' Google Classroom materials to provide efficient, relevant query results. The second feature enables conversational interaction with the student's calendar. These functionalities allow students to seamlessly query their course resources and manage their schedules through natural language conversations.
 
-<h5 align="center"> Ed's Pipeline  </h5>
+<h5 align="center"> Ed's Pipeline </h5>
 <p align="center">
 <img width="700" alt="Ed's Pipeline" src="https://github.com/user-attachments/assets/957b6b9b-9a18-414d-ba60-9caf8d9a9ec4">
 </p> 
 
-### 🔔 Proactive Alerts for On Task Management <a name="Notifications"></a> 
+### [🔔 Proactive Alerts for On Task Management](https://github.com/Foroughmo/CogniEdu/tree/main/6_Email_Notification) <a name="Notifications"></a> 
 Managing one's schedule effectively can often prove to be challenging. Ed sends proactive alerts to help users stay on track by extracting calendar data, formatting it into informative emails, automating the process, and securely integrating with external services via API calls and SSL for safe message transmission.
 
 <p align="center">
 <img width="200" alt="Screenshot 2024-06-18 at 12 08 32 PM" src="https://github.com/user-attachments/assets/64b48560-ff0e-40f6-9799-2719de11e769">
 </p> 
 
-# 📊  Model Evaluation <a name="Model-Evaluation"></a>                                             
+# [📊  Model Evaluation](https://github.com/Foroughmo/CogniEdu/tree/main/7_Model_Evaluation) <a name="Model-Evaluation"></a>                                             
 In selection of the model powering Ed, two models were compared, two of Google's Large Language Models were compared, Gemini 1.5 Pro and Gemini 1.5 Flash, using LangChain and AI. 
 
 <img width="1040" alt="Implementation Evaluation Dashboard" src="https://github.com/user-attachments/assets/40f93cc8-04ea-4612-adc3-545ff1e3252a">
 
 
-# 📱 Streamlit Built User Interface <a name="Streamlit"></a>                                             
+# [📱 Streamlit Built User Interface](https://github.com/Foroughmo/CogniEdu/tree/main/8_Streamlit) <a name="Streamlit"></a>                                             
 CogniEdu utilizes Streamlit alongside custom CSS to develop an intuitive user interface, ensuring a cohesive user experience. The deployment involved leveraging Cloud Run and NGROK to facilitate seamless accessibility and scalability of the data science application.
 
 ### UI/UX Design <a name="UI/UX Design"></a>
@@ -140,6 +141,8 @@ CogniEdu utilizes Streamlit alongside custom CSS to develop an intuitive user in
 
 # 🚀 Future Work <a name="Future-Work"></a>  
 
+### Next Steps <a name="Next-Steps"></a>
+<img width="623" alt="Next Steps" src="https://github.com/user-attachments/assets/2314411f-1da3-4179-a681-36ea29817c71">
 
 
 
