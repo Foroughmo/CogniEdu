@@ -42,13 +42,13 @@ CogniEdu is an academic planning tool designed to help students effectively mana
 <p align="center">
 <img width="300" alt="Screenshot 2024-08-06 at 5 23 52 PM" src="https://github.com/user-attachments/assets/d0c417e2-8c76-48de-a637-a6fc32184ce5">
 </p>
-We begin our story with our hypothetical student Nick Ramen. Nick Ramen is a college student dealing with a situation a lot of us can empathize to: he wants to have the best college experience possible, all the while maintaining good grades, a healthy sleep schedule, and a social life. However, it comes to a point where he has overcommited and becomes overwhelmed, leading to a decline in grades and is lost as to how to navigate his academic decline.
+The story begins with a hypothetical student, Nick Ramen. Nick Ramen, a college student, faces a common challenge: balancing the best college experience possible while maintaining good grades, a healthy sleep schedule, and a social life. However, he eventually overcommits and becomes overwhelmed, leading to a decline in grades and confusion on how to navigate his academic struggles.
 
-Like Nick, approximtely 86% of college students face challenges in effectively managing their time, leading to procrastination, stress, and a decline in academic performance.
+Like Nick, approximately 86% of college students face challenges in effectively managing their time, which can lead to procrastination, stress, and a decline in academic performance.
 
-Here is how CogniEdu can help:
+**Here is how CogniEdu can help:**
 
-CogniEdu takes the planning out of these priorities and creates an optimized schedule, tailored according to the student’s preferences, skills and commitments. With CogniEdu, students have a dedicated AI Chatbot Assistant in Ed, a conversational AI chatbot as they navigate through their academic journey. Ed assists with organizing tasks, sending out email reminders, answering questions about their calendar and classes, and helping students be more successful with their academics.
+CogniEdu simplifies the planning process by creating an optimized schedule tailored to the student’s preferences, skills, and commitments. With CogniEdu, students benefit from a dedicated AI Chatbot Assistant named Ed. Ed assists with organizing tasks, sending email reminders, answering questions about the calendar and classes, and supporting students in achieving academic success.
 
 
 # **🧠  Overview of CogniEdu** <a name="Overview"></a>
@@ -146,53 +146,59 @@ In selection of the model powering Ed, two models were compared, two of Google's
 
 
 # [📱 Streamlit Built User Interface](https://github.com/Foroughmo/CogniEdu/tree/main/8_Streamlit) <a name="Streamlit"></a>                                             
-CogniEdu utilizes Streamlit alongside custom CSS to develop an intuitive user interface, ensuring a cohesive user experience. The deployment involved leveraging Cloud Run and NGROK to facilitate seamless accessibility and scalability of the data science application.
+CogniEdu utilizes Streamlit alongside custom CSS to develop an intuitive user interface, ensuring a cohesive user experience. The development involved leveraging Cloud Run and NGROK to facilitate seamless deployment and testing of the application in a scalable and secure environment.
 
-### Landing Page <a name="Landing Page"></a>
+---
+### Landing Page <a name="Landing-Page"></a>
 <p align="center">
-<img width="450" alt="Screenshot 2024-08-06 at 5 33 39 PM" src="https://github.com/user-attachments/assets/8a641e3c-eef9-4013-9361-4b0c196f917d">
+<img width="600" alt="Screenshot 2024-08-06 at 5 33 39 PM" src="https://github.com/user-attachments/assets/8a641e3c-eef9-4013-9361-4b0c196f917d">
 
-The Landing Page directs new students to "Register Here" and returning students to "Log in Here".
+The Landing Page directs new students to "Register Here" and returning students to "Log in Here."
 
-### New Student Registeration <a name="New Student Registration"></a>
+---
+### New Student Registration <a name="New-Student-Registration"></a>
+
 ##### Register Here Page <a name="Register Here Page"></a>
 <p align="center">
-<img width="450" alt="Screenshot 2024-08-06 at 5 34 00 PM" src="https://github.com/user-attachments/assets/c4d90504-edbc-41a0-9a49-2296ba546e65">
+<img width="600" alt="Screenshot 2024-08-06 at 5 34 00 PM" src="https://github.com/user-attachments/assets/c4d90504-edbc-41a0-9a49-2296ba546e65">
 
 New students are directed to input their email address, full name, and password to create a new account.
 
-##### Integration Page <a name="Integration Page"></a>
+##### Integration Page <a name="Integration-Page"></a>
 <p align="center">
-<img width="450" alt="Screenshot 2024-08-06 at 5 34 47 PM" src="https://github.com/user-attachments/assets/0f7558ba-d2c6-4fbe-bb2b-3d18d648d596">
+<img width="600" alt="Screenshot 2024-08-06 at 5 34 47 PM" src="https://github.com/user-attachments/assets/0f7558ba-d2c6-4fbe-bb2b-3d18d648d596">
 
-Here is where the integration happens. New students integrate their Google Classroom and Google Calendar platforms.
+Integration with external accounts are meant to occur in this page. New students integrate their Google Classroom and Google Calendar platforms.
 
-##### Ed Says Hi! <a name="Ed Says Hi!"></a>
+##### Ed Says Hi! <a name="Ed-Says-Hi!"></a>
 <p align="center">
-<img width="450" alt="Screenshot 2024-08-06 at 5 34 59 PM" src="https://github.com/user-attachments/assets/28ae100d-f05a-4239-822c-21a0fa129ca0">
+<img width="600" alt="Screenshot 2024-08-06 at 5 34 59 PM" src="https://github.com/user-attachments/assets/28ae100d-f05a-4239-822c-21a0fa129ca0">
 
-New students are shown a pop up of Ed introducing himself as your personal AI Chatbot assistant.
+New students are shown a pop up of Ed introducing himself as the personal AI Chatbot assistant.
 
-##### Questionnaire Page <a name="Questionnaire Page"></a>
+##### Questionnaire Page <a name="Questionnaire-Page"></a>
 <p align="center">
-<img width="450" alt="Screenshot 2024-08-06 at 5 35 22 PM" src="https://github.com/user-attachments/assets/570b88d5-ddd7-4804-8e12-32c7650f6443">
+<img width="600" alt="Screenshot 2024-08-06 at 5 35 22 PM" src="https://github.com/user-attachments/assets/570b88d5-ddd7-4804-8e12-32c7650f6443">
 
-Ed directs you to tailor your experience with CogniEdu! This is where you provide your preferences in studying time, whether you are a morning person or not, preferred break times, etc.
+Ed directs students to tailor their experience with CogniEdu! This is where students can provide their preferences, such as studying times, whether they are a morning person or not, preferred break times, etc.
 
-### Returning Student Log-in <a name="Returning Student Log-in"></a>
+---
+### Returning Student Log-In <a name="Returning-Student Log-In"></a>
+
 ##### Log-in Page <a name="Log-in Page"></a>
 <p align="center">
-<img width="450" alt="Screenshot 2024-08-06 at 5 34 23 PM" src="https://github.com/user-attachments/assets/0da13a59-da53-46b6-9bd1-a887e3fe3229">
+<img width="600" alt="Screenshot 2024-08-06 at 5 34 23 PM" src="https://github.com/user-attachments/assets/0da13a59-da53-46b6-9bd1-a887e3fe3229">
 
-Returning students are directed to input their email address and password to log back into their account
+Returning students are directed to input their email address and password to log back into their account.
 
-##### Welcome Back! <a name="Welcome Back!"></a>
+##### Welcome Back! <a name="Welcome-Back!"></a>
 <p align="center">
-<img width="450" alt="Screenshot 2024-08-06 at 5 36 21 PM" src="https://github.com/user-attachments/assets/97b5ecd6-cb45-48ba-86b0-71435e95e2ab">
+<img width="600" alt="Screenshot 2024-08-06 at 5 36 21 PM" src="https://github.com/user-attachments/assets/97b5ecd6-cb45-48ba-86b0-71435e95e2ab">
 
-Returning students are shown a pop up welcoming you back to CogniEdu
+Returning students are shown a pop up welcoming them back to CogniEdu. 
 
-### Home Page <a name="Home Page"></a>
+---
+### Home Page <a name="Home-Page"></a>
   <p align="center">
   <img width="600" alt="ConvoCraftersLogo.png" src="https://github.com/user-attachments/assets/a4d75f09-b690-4da2-a92a-2194cbd59da5">
 
@@ -201,7 +207,7 @@ The Home Page includes the optimized calendar, a dedicated section for Ed, the s
 * Upcoming events show the next 3 events, as well as relevant details pertaining to them.
 * Ed is located below to direct the student to utilize his AI Chatbot assistance.*
 
-### Calendar Page <a name="Calendar Page"></a> 
+### Calendar Page <a name="Calendar-Page"></a> 
   <p align="center">
   <img width="600" alt="Cal 4" src="https://github.com/user-attachments/assets/8a19a5b7-7bfe-4e1f-abea-ab90f0242319">
 
@@ -210,50 +216,34 @@ The Calendar Page is the student's dedicated space to view a full week's optimiz
 * Navy: Classes from Google Classroom
 * Pink: Ed's Optimizer Events
 
-
-### Ed, AI Chatbot Page <a name="ED AI Chatbot Page"></a> 
+### Ed, AI Chatbot Page <a name="Ed-AI-Chatbot-Page"></a> 
   <p align="center">
   <img width="600" alt="Ed 2" src="https://github.com/user-attachments/assets/ec3c4fe4-14d5-44c2-ab5f-a4cbb709f131">
 
 The Ed, AI Chatbot Page allows for conversation pertaining to the student's course materials and their calendar. Recommended questions are provided to assist the student in making queries to Ed.
 
 # **🤔 Technical Challenges** <a name="Technical-Challenges"></a>
-#### 1. AI Hallucinations: 
-AI systems can produce hallucinations, generation misleading or incorrect information. In order to reduce hallucinations, we provided specific prompts, clear constraints, and relevant data sources to curate Ed's responses. 
-#### 2. Privacy Concerns: 
-Students provide student data from their emails, Google Calendar, and Google Classroom that need safeguarding.
-#### 3. Limited Training Data: 
-Limited data given reliance on student data. We utilized generative AI (Chatgpt) to create synthetic data to test out our chatbot.
-#### 4. Agentic System Run Time: 
-Increase Complexity affects run time.
-#### 5. Agentic System Tool Selection: 
-Implementing the correct logic for the agent to chose the right tool based on context.
-#### 6. LLM Inconsistency: 
-LLM responses can be random or inconsistent.
+1. **AI Hallucinations:** AI Systems Can Produce Hallucinations, Generating Misleading or Incorrect Information
+2. **Privacy Concerns:** Students Provide Student Data that Need Safeguarding
+3. **Limited Training Data:** Generative AI Created Synthetic Data Used Given Limited Data from Relying on Student Dataa ​
+4. **Agentic System Run Time:** Increasing Complexity Affects Run Time
+5. **Agentic System Tool Selection:** Implementing the Correct Logic for the Agent to Choose the Right Tool Based on Context​
+6. **LLM Inconsistency:** LLM Responses Can Be Random or Inconsistent
 
 
 # **🤝🏻 CogniEdu's Market Presence and Opportunities** <a name="Market-Presence-and-Opportunities"></a>
-Cogniedu addresses a significant market need for academic planning and organization tools that integrate seamlessly with existing technologies like Google Calendar and Google Classroom. With the increasing complexity of student schedules and the growing reliance on academic digital tools, CogniEdu is well-positioned for the educational technology market. We hope to enhance and expand our platform by collaborating with academic institutions and universities and by expanding integration to other popular platforms like Outlook Calendar and Canvas so that CogniEdu is a pre-installed feature for ease of access for students. 
+CogniEdu addresses a significant market need for academic planning and organization tools that integrate seamlessly with existing technologies like Google Calendar and Google Classroom. With the increasing complexity of student schedules and the growing reliance on digital academic tools, CogniEdu is well-positioned in the educational technology market. The platform aims to enhance and expand by collaborating with academic institutions and universities and by extending integration to other popular platforms like Outlook Calendar and Canvas, making CogniEdu a pre-installed feature for ease of access for students.
 
 
 # 🚀 Future Work <a name="Future-Work"></a>  
 
 ### Possibilities with CogniEdu <a name="Possibilities-with-CogniEdu"></a>
 
-#### Feedback Loop​​
-* Feedback Loop to Track Student’s Progress and Success of CogniEdu Recommendations​
-
-#### Improving LLMs
-* With the Permission of Students, Their Data Can Be Used for the LLMs to Return Smarter, User-Specific Responses​
-
-#### Partnerships​
-* Partner With Teachers, Parents, and Universities to Help Students on a Broader Scale​
-
-#### Robust Time Estimation
-* More Robust Time Estimation Algorithm for Optimizer​
-
-#### Scale Features
-* Each Component Can Be Scaled to Accommodate More Students and Plan for Longer Time-Periods​​
+1. **Feedback Loop:** To Track Student’s Progress and Success of CogniEdu Recommendations​
+2. **Improving LLMs:** With the Permission of Students, Their Data Can Be Used for the LLMs to Return Smarter, User-Specific Responses​
+3. **Partnerships:** Partner With Teachers, Parents, and Universities to Help Students on a Broader Scale​
+4. **Robust Time Estimation:** More Robust Time Estimation Algorithm for Optimizer​
+5. **Scale Features:** Each Component Can Be Scaled to Accommodate More Students and Plan for Longer Time-Periods​​ 
 
 ### Next Steps <a name="Next-Steps"></a>
 <img width="650" alt="Next Steps" src="https://github.com/user-attachments/assets/2314411f-1da3-4179-a681-36ea29817c71">
