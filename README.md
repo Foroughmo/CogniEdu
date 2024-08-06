@@ -71,7 +71,8 @@ The chatbot leverages LangGraph's latest features to implement two powerful capa
 
 <p align="center">
 <img width="200" alt="Screenshot 2024-06-18 at 12 08 32 PM" src="https://github.com/user-attachments/assets/64b48560-ff0e-40f6-9799-2719de11e769">
-</p> *Ed, your Academic AI Chatbot Assistant*
+</p> 
+*Ed, your Academic AI Chatbot Assistant*
 
 #### 🔔 Proactive Alerts for On Task Management <a name="Notifications"></a> 
 Managing one's schedule effectively can often prove to be challenging. Ed sends proactive alerts to help users stay on track by extracting calendar data, formatting it into informative emails, automating the process, and securely integrating with external services via API calls and SSL for safe message transmission.
