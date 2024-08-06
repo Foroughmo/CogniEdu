@@ -6,7 +6,6 @@
 
 CogniEdu is an academic planning tool designed to help students effectively manage their academic schedules alongside other commitments.
 
-
 # **📑 Table of Contents**
 
 1. [Project Motivation](#Project-Motivation)
@@ -153,7 +152,18 @@ CogniEdu utilizes Streamlit alongside custom CSS to develop an intuitive user in
 *Recommended questions are provided and is hidden once the student asks Ed questions*
 
 # **🤔 Technical Challenges** <a name="Technical-Challenges"></a>
-
+#### 1. AI Hallucinations: 
+AI systems can produce hallucinations, generation misleading or incorrect information. In order to reduce hallucinations, we provided specific prompts, clear constraints, and relevant data sources to curate Ed's responses. 
+#### 2. Privacy Concerns: 
+Students provide student data from their emails, Google Calendar, and Google Classroom that need safeguarding.
+#### 3. Limited Training Data: 
+Limited data given reliance on student data. We utilized generative AI (Chatgpt) to create synthetic data to test out our chatbot.
+#### 4. Agentic System Run Time: 
+Increase Complexity affects run time.
+#### 5. Agentic System Tool Selection: 
+Implementing the correct logic for the agent to chose the right tool based on context.
+#### 6. LLM Inconsistency: 
+LLM responses can be random or inconsistent.
 
 
 # **🤝🏻 CogniEdu's Market Presence and Opportunities** <a name="Market-Presence-and-Opportunities"></a>
@@ -163,11 +173,21 @@ CogniEdu utilizes Streamlit alongside custom CSS to develop an intuitive user in
 # 🚀 Future Work <a name="Future-Work"></a>  
 
 ### Possibilities with CogniEdu <a name="Possibilities-with-CogniEdu"></a>
-<img width="650" alt="Possibilities with CogniEdu" src="https://github.com/user-attachments/assets/633cf65d-1e75-4efc-ad30-af5f8e34408b">
 
-* Given that LLMs are at the core of CogniEdu's framework, improving various LLM components can enhance the robustness of the time estimation algorithm for the optimizer and make Ed's responses smarter as he learns more about the student.
-* CogniEdu's positive impact on students can be expanded by enhancing each component of the project to accommodate more students and allow for long-term planning. This can also involve partnering with the academic industry, parents, and instructors to support students' success in academia.
-* To further enhance CogniEdu's impact, a feedback loop can be implemented to track student progress and monitor the success of CogniEdu's recommendations.
+#### Feedback Loop​​
+* Feedback Loop to Track Student’s Progress and Success of CogniEdu Recommendations​
+
+#### Improving LLMs
+* With the Permission of Students, Their Data Can Be Used for the LLMs to Return Smarter, User-Specific Responses​
+
+#### Partnerships​
+* Partner With Teachers, Parents, and Universities to Help Students on a Broader Scale​
+
+#### Robust Time Estimation
+* More Robust Time Estimation Algorithm for Optimizer​
+
+#### Scale Features
+* Each Component Can Be Scaled to Accommodate More Students and Plan for Longer Time-Periods​​
 
 ### Next Steps <a name="Next-Steps"></a>
 <img width="650" alt="Next Steps" src="https://github.com/user-attachments/assets/2314411f-1da3-4179-a681-36ea29817c71">
