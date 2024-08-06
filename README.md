@@ -107,12 +107,13 @@ CogniEdu utilizes Streamlit alongside custom CSS to develop an intuitive user in
 *Recommended questions are provided and is hidden once the student asks Ed questions*
 
 # **🤔 Technical Challenges** <a name="Technical-Challenges"></a>
-1. AI Hallucination
-2. Privacy Concerns
-3. Limited Training Data
-4. Agentic System Run Time
-5. Agentic System Tool Selection
-6. LLM Inconsistency
+1. AI Hallucination <a name="AI Hallucination"></a> 
+  Hello
+3. Privacy Concerns
+4. Limited Training Data
+5. Agentic System Run Time
+6. Agentic System Tool Selection
+7. LLM Inconsistency
 
 
 # **🤝🏻 Competitors and Market Opportunities** <a name="Competitors-and-Market-Opportunities"></a>
