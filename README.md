@@ -141,8 +141,15 @@ CogniEdu utilizes Streamlit alongside custom CSS to develop an intuitive user in
 
 # 🚀 Future Work <a name="Future-Work"></a>  
 
+### Possibilities with CogniEdu <a name="Possibilities-with-CogniEdu"></a>
+<img width="650" alt="Possibilities with CogniEdu" src="https://github.com/user-attachments/assets/633cf65d-1e75-4efc-ad30-af5f8e34408b">
+
+* Given that LLMs are at the core of CogniEdu's framework, improving various LLM components can enhance the robustness of the time estimation algorithm for the optimizer and make Ed's responses smarter as he learns more about the student.
+* CogniEdu's positive impact on students can be expanded by enhancing each component of the project to accommodate more students and allow for long-term planning. This can also involve partnering with the academic industry, parents, and instructors to support students' success in academia.
+* To further enhance CogniEdu's impact, a feedback loop can be implemented to track student progress and monitor the success of CogniEdu's recommendations.
+
 ### Next Steps <a name="Next-Steps"></a>
-<img width="623" alt="Next Steps" src="https://github.com/user-attachments/assets/2314411f-1da3-4179-a681-36ea29817c71">
+<img width="650" alt="Next Steps" src="https://github.com/user-attachments/assets/2314411f-1da3-4179-a681-36ea29817c71">
 
 
 
