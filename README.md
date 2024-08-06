@@ -111,8 +111,7 @@ CogniEdu utilizes Streamlit alongside custom CSS to develop an intuitive user in
 # 👤 Acknowledgements/About Us <a name="Acknowledgements"></a>                                                
   <p align="left">
   <img width="100" alt="ConvoCraftersLogo.png" src="https://github.com/user-attachments/assets/7e9d4d18-c9d6-4457-b0bf-fa4daa24de77">
-  </p>
-  
+
   Roselyn Rozario  ([@roselynrozario](https://github.com/roselynrozario))  
   Adela Cho  ([@Adelach0](https://github.com/Adelach0))  
   Michael Meissner  ([@mikemeissner1](https://github.com/mikemeissner1))  
