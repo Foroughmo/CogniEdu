@@ -149,6 +149,11 @@ In selection of the model powering Ed, two models were compared, two of Google's
 CogniEdu utilizes Streamlit alongside custom CSS to develop an intuitive user interface, ensuring a cohesive user experience. The deployment involved leveraging Cloud Run and NGROK to facilitate seamless accessibility and scalability of the data science application.
 
 ### UI/UX Design <a name="UI/UX Design"></a>
+<p align="left">
+<img width="600" alt="Screenshot 2024-08-06 at 5 33 39 PM" src="https://github.com/user-attachments/assets/8a641e3c-eef9-4013-9361-4b0c196f917d">
+
+The Landing Page directs new students to "Register Here" and returning students to "Log in Here".
+
 #### Home Page <a name="Home Page"></a>
   <p align="left">
   <img width="600" alt="ConvoCraftersLogo.png" src="https://github.com/user-attachments/assets/a4d75f09-b690-4da2-a92a-2194cbd59da5">
