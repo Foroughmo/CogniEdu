@@ -115,5 +115,5 @@ CogniEdu utilizes Streamlit alongside custom CSS to develop an intuitive user in
   Forough Mofidi ([@Foroughmo](https://github.com/Foroughmo))  
   Joseph Strickland ([@JCStrick](https://github.com/JCStrick))
   <p align="center">
-  <img width="200" alt="Screenshot 2024-06-18 at 12 08 32 PM" src="https://github.com/user-attachments/assets/556aa576-df13-4653-9f95-ef387dfbdd5">
+  <img width="200" alt="ConvoCraftersLogo.png" src="https://github.com/user-attachments/assets/7e9d4d18-c9d6-4457-b0bf-fa4daa24de77">
   </p>
