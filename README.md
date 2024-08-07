@@ -234,7 +234,7 @@ Now it's time to give CogniEdu a chance!
 | 8 | Project Management | ![Trello](https://img.shields.io/badge/Trello-%23026AA7.svg?style=for-the-badge&logo=Trello&logoColor=white) |
 
 # Reference
-<a name="footnote1">1</a>: Gitnux. (n.d.). College student time management statistics. Retrieved from https://gitnux.org/college-student-time-management-statistics/#:~:text=86%25%20of%20college%20students%20say,their%20studies%20and%20other%20commitments
+<a name="footnote1">1</a>: Gitnux. (n.d.). College student time management statistics. Retrieved from https://gitnux.org/college-student-time-management-statistics/
 
 # 👤 Acknowledgements/About Us <a name="Acknowledgements"></a>                                                
   <p align="left">
