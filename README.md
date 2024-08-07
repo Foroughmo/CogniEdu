@@ -148,7 +148,7 @@ In selection of the model powering Ed, two models were compared, two of Google's
 # [📱 Streamlit Built User Interface](https://github.com/Foroughmo/CogniEdu/tree/main/8_Streamlit) <a name="Streamlit"></a>                                             
 CogniEdu utilizes Streamlit alongside custom CSS to develop an intuitive user interface, ensuring a cohesive user experience. The development involved leveraging Cloud Run and NGROK to facilitate seamless deployment and testing of the application in a scalable and secure environment.
 
-
+https://github.com/user-attachments/assets/7f5999bb-6809-43cd-9757-807c4d87f55f
 
 ---
 
@@ -158,9 +158,7 @@ CogniEdu can be broken down into two process flows:
 
 1. New Students: New students will complete an onboarding process to set up their profile with CogniEdu and integrate their accounts for information extraction. After this, they will be able to access their optimized calendar and converse with Ed.
 2. Returning Students: Returning students do not need to undergo the onboarding process. Once they input their credentials, they will be able to view their optimized calendar and converse with Ed.
-
-https://github.com/user-attachments/assets/7f5999bb-6809-43cd-9757-807c4d87f55f
-
+   
 Detailed Overview of CogniEdu: [Click Here](https://github.com/Foroughmo/CogniEdu/blob/main/8_Streamlit/App_Overview/app.md)
 
 ### Home Page <a name="Home-Page"></a>
