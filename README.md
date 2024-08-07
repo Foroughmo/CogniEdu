@@ -14,7 +14,7 @@ CogniEdu is an academic planning tool designed to help students effectively mana
    * [Project Diagram](#Project-Diagram)  
    * [Front-End](#Front-End)  
 
-4. [Project Components](#Project-Components) 
+3. [Project Components](#Project-Components) 
    * [Onboarding Experience](#Onboarding-Experience)      
    * [Database Management with SQL](#Database)
    * [Time Estimations by LLM for Optimizer Algorithm](#Time)   
@@ -22,25 +22,25 @@ CogniEdu is an academic planning tool designed to help students effectively mana
    * [Ed: Our Conversational AI RAG Application Utilizing Langraph](#Ed) 
    * [Proactive Alerts for On Task Management](#Notifications)
       
-5. [Implementation Evaluation](#Implementation-Evaluation)
+4. [Implementation Evaluation](#Implementation-Evaluation)
 
-6. [Streamlit Built User Interface](#Streamlit)
+5. [Streamlit Built User Interface](#Streamlit)
    * [CogniEdu App Overview](#CogniEdu-App-Overview)
    
-8. [Technical Challenges](#Technical-Challenges)
+6. [Technical Challenges](#Technical-Challenges)
 
-9. [CogniEdu's Market Presence and Opportunities](#Market-Presence-and-Opportunities)
+7. [CogniEdu's Market Presence and Opportunities](#Market-Presence-and-Opportunities)
 
-10. [Future Works](#Future-Works)
+8. [Future Works](#Future-Works)
    * [Next Steps](#Next-Steps)
 
-11. [Conclusion](#Conclusion)
+9. [Conclusion](#Conclusion)
     
-12. [Tools Utilized](#Tools-Utilized)
+10. [Tools Utilized](#Tools-Utilized)
 
-13. [Reference](#Reference)
+11. [Reference](#Reference)
 
-14. [Acknowledgements/About Us](#Acknowledgements)
+12. [Acknowledgements/About Us](#Acknowledgements)
 
 
 # **🎯 Project Motivation** <a name="Project-Motivation"></a>
