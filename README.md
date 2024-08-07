@@ -25,17 +25,22 @@ CogniEdu is an academic planning tool designed to help students effectively mana
 5. [Model Evaluation](#Model-Evaluation)
 
 6. [Streamlit Built User Interface](#Streamlit)
+   * [CogniEdu App Overview](#CogniEdu-App-Overview)
    
-7. [Technical Challenges](#Technical-Challenges)
+8. [Technical Challenges](#Technical-Challenges)
 
-8. [CogniEdu's Market Presence and Opportunities](#Market-Presence-and-Opportunities)
+9. [CogniEdu's Market Presence and Opportunities](#Market-Presence-and-Opportunities)
 
-9. [Future Works](#Future-Works)
-   * [Next Steps](#Next-Steps)    
+10. [Future Works](#Future-Works)
+   * [Next Steps](#Next-Steps)
+
+11. [Conclusion](#Conclusion)
     
-11. [Tools Utilized](#Tools-Utilized)
+12. [Tools Utilized](#Tools-Utilized)
 
-12. [Acknowledgements/About Us](#Acknowledgements)
+13. [Reference](#Reference)
+
+14. [Acknowledgements/About Us](#Acknowledgements)
 
 
 # **🎯 Project Motivation** <a name="Project-Motivation"></a>
@@ -152,7 +157,7 @@ https://github.com/user-attachments/assets/7f5999bb-6809-43cd-9757-807c4d87f55f
 
 ---
 
-### [CogniEdu App Overview](https://github.com/Foroughmo/CogniEdu/blob/main/8_Streamlit/App_Overview/app.md)
+### [CogniEdu App Overview](https://github.com/Foroughmo/CogniEdu/blob/main/8_Streamlit/App_Overview/app.md) <a name="CogniEdu-App-Overview"></a>
 
 CogniEdu can be broken down into two process flows:
 
@@ -238,8 +243,8 @@ Now it's time to give CogniEdu a chance!
 
 # 👤 Acknowledgements/About Us <a name="Acknowledgements"></a>                                                
   <p align="left">
-  <img width="100" alt="ConvoCraftersLogo.png" src="https://github.com/user-attachments/assets/7e9d4d18-c9d6-4457-b0bf-fa4daa24de77">
-  
+  <img width="100" alt="ConvoCraftersLogo.png" src="https://github.com/user-attachments/assets/8c75cc2e-36fe-4c82-87d5-6e6dac10bef6">
+
   Roselyn Rozario  ([@roselynrozario](https://github.com/roselynrozario))  
   Adela Cho  ([@Adelach0](https://github.com/Adelach0))  
   Michael Meissner  ([@mikemeissner1](https://github.com/mikemeissner1))  
