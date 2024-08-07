@@ -30,7 +30,7 @@ CogniEdu is an academic planning tool designed to help students effectively mana
 
 8. [CogniEdu's Market Presence and Opportunities](#Market-Presence-and-Opportunities)
 
-9. [Future Work](#Future-Work)
+9. [Future Works](#Future-Works)
    * [Next Steps](#Next-Steps)    
     
 11. [Tools Utilized](#Tools-Utilized)
@@ -44,7 +44,8 @@ CogniEdu is an academic planning tool designed to help students effectively mana
 </p>
 The story begins with a hypothetical student, Nick Ramen. Nick Ramen, a college student, faces a common challenge: balancing the best college experience possible while maintaining good grades, a healthy sleep schedule, and a social life. However, he eventually overcommits and becomes overwhelmed, leading to a decline in grades and confusion on how to navigate his academic struggles.
 
-Like Nick, approximately 86% of college students face challenges in effectively managing their time, which can lead to procrastination, stress, and a decline in academic performance.
+
+<br> Like Nick, approximately 86% of college students face challenges in effectively managing their time, which can lead to procrastination, stress, and a decline in academic performance.<sup>[1](#footnote1)</sup>
 
 **Here is how CogniEdu can help:**
 
@@ -88,7 +89,6 @@ The calendar sync involves an initial import of the student's full calendar, whi
 
 The MySQL database also houses assignment information, such as due dates and instructions, which is extracted from Google Classroom, and then transformed, before being loaded into said database. The RAG (Retrieval-Augmented Generation) application then leverages this comprehensive data set to provide personalized and optimized solutions.                                                
 ### [🕛 Time Estimations by LLM for Optimizer Algorithm](https://github.com/Foroughmo/CogniEdu/tree/main/3_LLM_Time_Estimation) <a name="Time"></a> 
-### Time Estimation
 
 The time estimation algorithm serves as the preliminary phase in preparing data for the optimizer. This process is executed in two steps utilizing Large Language Models (LLMs) through prompt engineering.
 
@@ -198,7 +198,7 @@ The Ed, AI Chatbot Page allows for conversation pertaining to the student's cour
 CogniEdu addresses a significant market need for academic planning and organization tools that integrate seamlessly with existing technologies like Google Calendar and Google Classroom. With the increasing complexity of student schedules and the growing reliance on digital academic tools, CogniEdu is well-positioned in the educational technology market. The platform aims to enhance and expand by collaborating with academic institutions and universities and by extending integration to other popular platforms like Outlook Calendar and Canvas, making CogniEdu a pre-installed feature for ease of access for students.
 
 
-# 🚀 Future Work <a name="Future-Work"></a>  
+# 🚀 Future Works <a name="Future-Works"></a>  
 
 ### Possibilities with CogniEdu <a name="Possibilities-with-CogniEdu"></a>
 
@@ -208,7 +208,7 @@ CogniEdu addresses a significant market need for academic planning and organizat
 4. **Robust Time Estimation:** More Robust Time Estimation Algorithm for Optimizer​
 5. **Scale Features:** Each Component Can Be Scaled to Accommodate More Students and Plan for Longer Time-Periods​​ 
 
-### Next Steps <a name="Next-Steps"></a>
+### Next Steps Timeline <a name="Next-Steps"></a>
 <img width="650" alt="Next Steps" src="https://github.com/user-attachments/assets/2314411f-1da3-4179-a681-36ea29817c71">
 
 # Conclusion <a name="Conclusion"></a>
@@ -216,12 +216,9 @@ CogniEdu addresses a significant market need for academic planning and organizat
 <img width="380" alt="Screenshot 2024-08-06 at 8 16 15 PM" src="https://github.com/user-attachments/assets/40adf45a-bd13-4ce6-80aa-2cf9ea1c7df9">
 </p>
 
-Now that Nick is equipped with CogniEdu, he is able to integrate all his educational platforms, follow Ed's tailored study plans, and organize his course materials. Slowly but surely, Nick has become a happier college student, able to manage all his commitments and became more organized and motivated then ever as his academic performance improves.
+Now that Nick is equipped with CogniEdu, he is able to integrate all his educational platforms, follow Ed's tailored study plans, and organize his course materials. Slowly but surely, Nick has become a happier college student, able to manage all his commitments and become more organized and motivated than ever as his academic performance improves.
 
-Now it's your turn to give CogniEdu a chance!
-
-# References <a name="References"></a>
-Gitnux. (n.d.). College student time management statistics. Retrieved from https://gitnux.org/college-student-time-management-statistics/#:~:text=86%25%20of%20college%20students%20say,their%20studies%20and%20other%20commitments
+Now it's time to give CogniEdu a chance!
 
 # **🛠️ Tools Utilized** <a name="Tools-Utilized"></a>
 
@@ -236,6 +233,8 @@ Gitnux. (n.d.). College student time management statistics. Retrieved from https
 | 7 | Platforms | ![Google Cloud](https://img.shields.io/badge/Google_Cloud-4285F4?style=for-the-badge&logo=google-cloud&logoColor=white) |
 | 8 | Project Management | ![Trello](https://img.shields.io/badge/Trello-%23026AA7.svg?style=for-the-badge&logo=Trello&logoColor=white) |
 
+# Reference
+<a name="footnote1">1</a>: Gitnux. (n.d.). College student time management statistics. Retrieved from https://gitnux.org/college-student-time-management-statistics/#:~:text=86%25%20of%20college%20students%20say,their%20studies%20and%20other%20commitments
 
 # 👤 Acknowledgements/About Us <a name="Acknowledgements"></a>                                                
   <p align="left">
