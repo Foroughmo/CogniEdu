@@ -23,24 +23,28 @@ CogniEdu is an academic planning tool designed to help students effectively mana
    * [Proactive Alerts for On Task Management](#Notifications)
       
 4. [Implementation Evaluation](#Implementation-Evaluation)
+   * [Model Selection](https://github.com/Foroughmo/CogniEdu/tree/main/6_Model_Selection)
+   * [Model Evaluation](https://github.com/Foroughmo/CogniEdu/tree/main/7_Model_Evaluation)
 
-5. [Streamlit Built User Interface](#Streamlit)
+6. [Streamlit Built User Interface](#Streamlit)
    * [CogniEdu App Overview](#CogniEdu-App-Overview)
+   * [Detailed Overview of CogniEdu](https://github.com/Foroughmo/CogniEdu/blob/main/8_Streamlit/App_Overview/app.md)
    
-6. [Technical Challenges](#Technical-Challenges)
+7. [Technical Challenges](#Technical-Challenges)
 
-7. [CogniEdu's Market Presence and Opportunities](#Market-Presence-and-Opportunities)
+8. [CogniEdu's Market Presence and Opportunities](#Market-Presence-and-Opportunities)
 
-8. [Future Works](#Future-Works)
+9. [Future Works](#Future-Works)
+   * [Possibilities with CogniEdu](#Possibilities-with-CogniEdu)
    * [Next Steps](#Next-Steps)
 
-9. [Conclusion](#Conclusion)
+10. [Conclusion](#Conclusion)
     
-10. [Tools Utilized](#Tools-Utilized)
+11. [Tools Utilized](#Tools-Utilized)
 
-11. [Reference](#Reference)
+12. [Reference](#Reference)
 
-12. [Acknowledgements/About Us](#Acknowledgements)
+13. [Acknowledgements/About Us](#Acknowledgements)
 
 
 # **🎯 Project Motivation** <a name="Project-Motivation"></a>
