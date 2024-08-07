@@ -212,7 +212,9 @@ CogniEdu addresses a significant market need for academic planning and organizat
 <img width="650" alt="Next Steps" src="https://github.com/user-attachments/assets/2314411f-1da3-4179-a681-36ea29817c71">
 
 # Conclusion <a name="Conclusion"></a>
-
+<p align="center">
+<img width="300" alt="Screenshot 2024-08-06 at 8 16 15 PM" src="https://github.com/user-attachments/assets/40adf45a-bd13-4ce6-80aa-2cf9ea1c7df9">
+</p>
 
 # References <a name="References"></a>
 Gitnux. (n.d.). College student time management statistics. Retrieved from https://gitnux.org/college-student-time-management-statistics/#:~:text=86%25%20of%20college%20students%20say,their%20studies%20and%20other%20commitments
