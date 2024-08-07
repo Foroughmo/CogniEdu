@@ -216,7 +216,7 @@ CogniEdu addresses a significant market need for academic planning and organizat
 ### Next Steps Timeline <a name="Next-Steps"></a>
 <img width="650" alt="Next Steps" src="https://github.com/user-attachments/assets/2314411f-1da3-4179-a681-36ea29817c71">
 
-# Conclusion <a name="Conclusion"></a>
+# 🔚 Conclusion <a name="Conclusion"></a>
 <p align="center">
 <img width="380" alt="Screenshot 2024-08-06 at 8 16 15 PM" src="https://github.com/user-attachments/assets/40adf45a-bd13-4ce6-80aa-2cf9ea1c7df9">
 </p>
@@ -238,7 +238,7 @@ Now it's time to give CogniEdu a chance!
 | 7 | Platforms | ![Google Cloud](https://img.shields.io/badge/Google_Cloud-4285F4?style=for-the-badge&logo=google-cloud&logoColor=white) |
 | 8 | Project Management | ![Trello](https://img.shields.io/badge/Trello-%23026AA7.svg?style=for-the-badge&logo=Trello&logoColor=white) |
 
-# Reference
+# 📚 Reference <a name="Reference"></a>
 <a name="footnote1">1</a>: Gitnux. (n.d.). College student time management statistics. Retrieved from https://gitnux.org/college-student-time-management-statistics/
 
 # 👤 Acknowledgements/About Us <a name="Acknowledgements"></a>                                                
