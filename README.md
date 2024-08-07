@@ -68,7 +68,7 @@ CogniEdu simplifies the planning process by creating an optimized schedule tailo
 
 # 🧩 Project Components <a name="Project-Components"></a>
 
-### [📋 Onboarding Experience](https://github.com/Foroughmo/CogniEdu/tree/main/1_API_Integrations) <a name="Onboarding-Experience"></a>
+### 📋 Onboarding Experience <a name="Onboarding-Experience"></a>
 Each student undergoes an onboarding experience that integrates their calendar and academic platform through API calls. During this process, users complete an onboarding questionnaire that Ed uses to learn about their study habits and academic preferences. This information allows Ed to personalize the planning experience according to each student’s needs. 
 
 <h5 align="center"> Onboarding </h5>
