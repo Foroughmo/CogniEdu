@@ -150,6 +150,7 @@ In selection of the model powering Ed, two models were compared, two of Google's
 <img width="850" alt="Model Evaluation Dashboard" src="https://github.com/user-attachments/assets/fb66f99f-85d7-4743-8c61-a6093967a596">
 
 Model Selection: [Click Here](https://github.com/Foroughmo/CogniEdu/tree/main/6_Model_Selection)
+
 Model Evaluation: [Click Here](https://github.com/Foroughmo/CogniEdu/tree/main/7_Model_Evaluation)
 
 # [📱 Streamlit Built User Interface](https://github.com/Foroughmo/CogniEdu/tree/main/8_Streamlit) <a name="Streamlit"></a>                                             
