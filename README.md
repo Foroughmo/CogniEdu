@@ -36,7 +36,7 @@ CogniEdu is an academic planning tool designed to help students effectively mana
 
 9. [Future Works](#Future-Works)
    * [Possibilities with CogniEdu](#Possibilities-with-CogniEdu)
-   * [Next Steps](#Next-Steps)
+   * [Next Steps Timeline](#Next-Steps)
 
 10. [Conclusion](#Conclusion)
     
