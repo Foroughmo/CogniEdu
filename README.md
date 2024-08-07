@@ -216,7 +216,7 @@ CogniEdu addresses a significant market need for academic planning and organizat
 <img width="380" alt="Screenshot 2024-08-06 at 8 16 15 PM" src="https://github.com/user-attachments/assets/40adf45a-bd13-4ce6-80aa-2cf9ea1c7df9">
 </p>
 
-Now that Nick is equipped with CogniEdu, he is able to integrate all his educational platforms, follow Ed's tailored study plans, and organize his course material. Slowly but surely, Nick has become a happier college student, able to manage all his commitments and became more organized and motivated then ever as his academic performance improves.
+Now that Nick is equipped with CogniEdu, he is able to integrate all his educational platforms, follow Ed's tailored study plans, and organize his course materials. Slowly but surely, Nick has become a happier college student, able to manage all his commitments and became more organized and motivated then ever as his academic performance improves.
 
 Now it's your turn to give CogniEdu a chance!
 
