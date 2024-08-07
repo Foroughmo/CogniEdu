@@ -51,7 +51,7 @@ CogniEdu is an academic planning tool designed to help students effectively mana
 <p align="center">
 <img width="300" alt="Screenshot 2024-08-06 at 5 23 52 PM" src="https://github.com/user-attachments/assets/d0c417e2-8c76-48de-a637-a6fc32184ce5">
 </p>
-The story begins with a hypothetical student, Nick Ramen. Nick Ramen, a college student, faces a common challenge: balancing the best college experience possible while maintaining good grades, a healthy sleep schedule, and a social life. However, he eventually overcommits and becomes overwhelmed, leading to a decline in grades and confusion on how to navigate his academic struggles.
+The story begins with a hypothetical student, Nick Ramen. Nick, a college student, faces a common challenge: balancing the best college experience possible while maintaining good grades, a healthy sleep schedule, and a social life. However, he eventually overcommits and becomes overwhelmed, leading to a decline in grades and confusion on how to navigate his academic struggles.
 
 
 <br> Like Nick, approximately 86% of college students face challenges in effectively managing their time, which can lead to procrastination, stress, and a decline in academic performance.<sup>[1](#footnote1)</sup>
